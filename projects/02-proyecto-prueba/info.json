@@ -1,0 +1,24 @@
+{
+  "title": "Proyecto de Prueba",
+  "tagline": "Lorem ipsum dolor sit amet consectetur",
+  "year": "2024",
+  "role": "Lorem ipsum",
+  "genre": "Lorem / Ipsum",
+  "tech": [
+    "Lorem",
+    "Ipsum",
+    "Dolor"
+  ],
+  "featured": false,
+  "github": "https://github.com/sentrak/proyecto-prueba",
+  "play": "",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "achievements": [
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+  ],
+  "learnings": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+  "comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "youtube": []
+}

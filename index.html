@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SENTRAK — Portafolio de Desarrollo de Videojuegos</title>
+<meta name="description" content="Portafolio de Sentrak, desarrollador de videojuegos. Proyectos, logros, aprendizajes y código.">
+<meta property="og:title" content="SENTRAK — Portafolio de Videojuegos">
+<meta property="og:description" content="Proyectos, logros, aprendizajes y código de Sentrak.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="brand">SENTRAK</div>
+  <nav class="links">
+    <a href="#proyectos">Proyectos</a>
+    <a href="#sobre">Sobre mí</a>
+    <a href="https://github.com/sentrak" target="_blank" rel="noopener">GitHub</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <span class="corner tl"></span><span class="corner tr"></span>
+  <span class="corner bl"></span><span class="corner br"></span>
+  <div class="eyebrow">Desarrollador de Videojuegos</div>
+  <h1>SENTRAK</h1>
+  <p class="sub">Diseño y programo mundos jugables. Aquí están mis proyectos: qué construí, qué logré, qué aprendí y el código detrás de cada uno.</p>
+  <div class="socials">
+    <a class="btn gold" href="#proyectos">▼ Ver proyectos</a>
+    <a class="btn" href="https://github.com/SentrakGames" target="_blank" rel="noopener">⌘ GitHub</a>
+    <a class="btn" href="https://sentrakgames.itch.io/" target="_blank" rel="noopener">🎮 itch.io</a>
+  </div>
+</section>
+
+<main>
+  <section id="proyectos">
+    <div class="section-head"><h2>Proyectos</h2><div class="rule"></div></div>
+    <p class="section-sub">Haz clic en un proyecto para ver la galería completa, los logros y el código.</p>
+    <div class="filters" id="filters"></div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section id="sobre" style="margin-top:70px">
+    <div class="section-head"><h2>Sobre mí</h2><div class="rule"></div></div>
+    <p class="section-sub" style="max-width:720px">
+      Soy Sentrak, desarrollador de videojuegos. Me gusta la programación de sistemas de juego,
+      el diseño de mecánicas y pulir el "feel" hasta que se siente bien. Este portafolio recoge
+      mi trabajo — desde game jams hasta proyectos más largos. ¿Quieres colaborar? Escríbeme por GitHub.
+    </p>
+  </section>
+</main>
+
+<div class="modal-back" id="modalBack" role="dialog" aria-modal="true">
+  <div class="modal">
+    <span class="corner tl"></span><span class="corner tr"></span>
+    <button class="close" id="modalClose" aria-label="Cerrar">✕</button>
+    <div class="carousel">
+      <div class="slides" id="slides"></div>
+      <button class="car-btn prev" id="prev" aria-label="Anterior">‹</button>
+      <button class="car-btn next" id="next" aria-label="Siguiente">›</button>
+      <div class="dots" id="dots"></div>
+    </div>
+    <div class="thumbs" id="thumbs"></div>
+    <div class="mbody" id="mbody"></div>
+  </div>
+</div>
+
+<footer>
+  <div class="brand">SENTRAK</div>
+  <div>Portafolio de desarrollo de videojuegos · Hecho con código</div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>

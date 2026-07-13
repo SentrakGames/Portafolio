@@ -1,0 +1,31 @@
+{
+  "title": "Ben 10 Fan Game — Sistema de Transformación",
+  "tagline": "Recreación del Omnitrix con arquitectura modular en Unity",
+  "year": "2025",
+  "role": "Proyecto personal (Solo dev)",
+  "genre": "Acción / Aventura 3D",
+  "tech": [
+    "Unity",
+    "C#",
+    "Cinemachine",
+    "New Input System",
+    "Particle System",
+    "Animator (Blend Trees)",
+    "ScriptableObjects"
+  ],
+  "featured": true,
+  "github": "https://github.com/sentrak/ben10-fan-game",
+  "play": "",
+  "description": "Proyecto personal desarrollado en Unity que recrea el sistema de transformación del Omnitrix de Ben 10, con una arquitectura modular pensada para escalar a múltiples personajes jugables sin duplicar lógica.",
+  "achievements": [
+    "Máquina de estados completa para el ciclo de transformación (disponible → transformado → aviso de destransformación → cooldown), sincronizada entre gameplay, UI y efectos audiovisuales mediante eventos de C#.",
+    "Arquitectura basada en interfaces (IPlayable) que permite tratar a Ben y a cada alien como personajes intercambiables, desacoplando el controlador de jugador, la cámara y la UI de las clases concretas.",
+    "Sistema de movimiento en tercera persona relativo a cámara, con rotación suavizada y gravedad manual sobre CharacterController.",
+    "Cámara dinámica con Cinemachine que retargetea automáticamente su Follow/LookAt al personaje activo tras cada transformación.",
+    "UI reactiva (Omnitrix en pantalla) que responde a eventos del sistema en lugar de hacer polling, incluyendo animación de parpadeo antes de destransformarse.",
+    "Diseño de datos dirigido por ScriptableObjects, separando configuración (velocidad, altura de salto, distancia de cámara, tiempos de transformación) del código, para permitir balanceo y expansión sin recompilar."
+  ],
+  "learnings": "Durante el desarrollo trabajé en desafíos como la sincronización de datos entre arrays paralelos de modelos y configuraciones, el diseño de un sistema de eventos que mantuviera desacoplados a los managers principales (input, transformación, audio, cámara y UI), y la iteración sobre la estructura de ScriptableObjects hasta llegar a una separación clara de responsabilidades entre configuración global y datos por personaje.",
+  "comments": "",
+  "youtube": []
+}

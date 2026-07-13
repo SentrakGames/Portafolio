@@ -1,0 +1,141 @@
+[
+  {
+    "title": "Ben 10 Fan Game — Sistema de Transformación",
+    "tagline": "Recreación del Omnitrix con arquitectura modular en Unity",
+    "year": "2025",
+    "role": "Proyecto personal (Solo dev)",
+    "genre": "Acción / Aventura 3D",
+    "tech": [
+      "Unity",
+      "C#",
+      "Cinemachine",
+      "New Input System",
+      "Particle System",
+      "Animator (Blend Trees)",
+      "ScriptableObjects"
+    ],
+    "featured": true,
+    "github": "https://github.com/sentrak/ben10-fan-game",
+    "play": "",
+    "description": "Proyecto personal desarrollado en Unity que recrea el sistema de transformación del Omnitrix de Ben 10, con una arquitectura modular pensada para escalar a múltiples personajes jugables sin duplicar lógica.",
+    "achievements": [
+      "Máquina de estados completa para el ciclo de transformación (disponible → transformado → aviso de destransformación → cooldown), sincronizada entre gameplay, UI y efectos audiovisuales mediante eventos de C#.",
+      "Arquitectura basada en interfaces (IPlayable) que permite tratar a Ben y a cada alien como personajes intercambiables, desacoplando el controlador de jugador, la cámara y la UI de las clases concretas.",
+      "Sistema de movimiento en tercera persona relativo a cámara, con rotación suavizada y gravedad manual sobre CharacterController.",
+      "Cámara dinámica con Cinemachine que retargetea automáticamente su Follow/LookAt al personaje activo tras cada transformación.",
+      "UI reactiva (Omnitrix en pantalla) que responde a eventos del sistema en lugar de hacer polling, incluyendo animación de parpadeo antes de destransformarse.",
+      "Diseño de datos dirigido por ScriptableObjects, separando configuración (velocidad, altura de salto, distancia de cámara, tiempos de transformación) del código, para permitir balanceo y expansión sin recompilar."
+    ],
+    "learnings": "Durante el desarrollo trabajé en desafíos como la sincronización de datos entre arrays paralelos de modelos y configuraciones, el diseño de un sistema de eventos que mantuviera desacoplados a los managers principales (input, transformación, audio, cámara y UI), y la iteración sobre la estructura de ScriptableObjects hasta llegar a una separación clara de responsabilidades entre configuración global y datos por personaje.",
+    "comments": "",
+    "youtube": [],
+    "media": [
+      {
+        "type": "image",
+        "src": "projects/01-ben10-fan-game/img1.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/01-ben10-fan-game/img2.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/01-ben10-fan-game/img3.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/01-ben10-fan-game/img4.jpg"
+      }
+    ],
+    "folder": "01-ben10-fan-game",
+    "id": "01-ben10-fan-game"
+  },
+  {
+    "title": "Proyecto de Prueba",
+    "tagline": "Lorem ipsum dolor sit amet consectetur",
+    "year": "2024",
+    "role": "Lorem ipsum",
+    "genre": "Lorem / Ipsum",
+    "tech": [
+      "Lorem",
+      "Ipsum",
+      "Dolor"
+    ],
+    "featured": false,
+    "github": "https://github.com/sentrak/proyecto-prueba",
+    "play": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "achievements": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+    ],
+    "learnings": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+    "comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "youtube": [],
+    "media": [
+      {
+        "type": "image",
+        "src": "projects/02-proyecto-prueba/img1.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/02-proyecto-prueba/img2.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/02-proyecto-prueba/img3.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/02-proyecto-prueba/img4.jpg"
+      }
+    ],
+    "folder": "02-proyecto-prueba",
+    "id": "02-proyecto-prueba"
+  },
+  {
+    "title": "Proyecto de Prueba 2",
+    "tagline": "Ut enim ad minim veniam quis nostrud",
+    "year": "2024",
+    "role": "Lorem ipsum",
+    "genre": "Ipsum / Dolor",
+    "tech": [
+      "Lorem",
+      "Sit",
+      "Amet"
+    ],
+    "featured": false,
+    "github": "https://github.com/sentrak/proyecto-prueba-2",
+    "play": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.",
+    "achievements": [
+      "Excepteur sint occaecat cupidatat non proident sunt in culpa.",
+      "Qui officia deserunt mollit anim id est laborum.",
+      "Sed ut perspiciatis unde omnis iste natus error sit."
+    ],
+    "learnings": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+    "comments": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+    "youtube": [],
+    "media": [
+      {
+        "type": "image",
+        "src": "projects/03-proyecto-prueba-2/img1.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/03-proyecto-prueba-2/img2.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/03-proyecto-prueba-2/img3.jpg"
+      },
+      {
+        "type": "image",
+        "src": "projects/03-proyecto-prueba-2/img4.jpg"
+      }
+    ],
+    "folder": "03-proyecto-prueba-2",
+    "id": "03-proyecto-prueba-2"
+  }
+]
