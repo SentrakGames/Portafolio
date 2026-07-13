@@ -15,8 +15,8 @@
       "ScriptableObjects"
     ],
     "featured": true,
-    "github": "https://github.com/sentrak/ben10-fan-game",
-    "play": "",
+    "github": "https://github.com/SentrakGames/ben10-Project",
+    "play": "https://sentrakgames.itch.io/transformation-alien",
     "description": "Proyecto personal desarrollado en Unity que recrea el sistema de transformación del Omnitrix de Ben 10, con una arquitectura modular pensada para escalar a múltiples personajes jugables sin duplicar lógica.",
     "achievements": [
       "Máquina de estados completa para el ciclo de transformación (disponible → transformado → aviso de destransformación → cooldown), sincronizada entre gameplay, UI y efectos audiovisuales mediante eventos de C#.",
