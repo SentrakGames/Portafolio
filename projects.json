@@ -32,19 +32,23 @@
     "media": [
       {
         "type": "image",
-        "src": "projects/01-ben10-fan-game/img1.jpg"
+        "src": "projects/01-ben10-fan-game/1.png"
       },
       {
         "type": "image",
-        "src": "projects/01-ben10-fan-game/img2.jpg"
+        "src": "projects/01-ben10-fan-game/2.png"
       },
       {
         "type": "image",
-        "src": "projects/01-ben10-fan-game/img3.jpg"
+        "src": "projects/01-ben10-fan-game/3.png"
       },
       {
         "type": "image",
-        "src": "projects/01-ben10-fan-game/img4.jpg"
+        "src": "projects/01-ben10-fan-game/4.png"
+      }
+            {
+        "type": "image",
+        "src": "projects/01-ben10-fan-game/5.png"
       }
     ],
     "folder": "01-ben10-fan-game",
