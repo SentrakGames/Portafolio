@@ -11,7 +11,7 @@
       "Cinemachine",
       "New Input System",
       "Particle System",
-      "Animator (Blend Trees)",
+      "Animator",
       "ScriptableObjects"
     ],
     "featured": true,
@@ -32,23 +32,23 @@
     "media": [
       {
         "type": "image",
-        "src": "projects/01-ben10-fan-game/1.png"
+        "src": "projects/01-ben10-fan-game/foto1.png"
       },
       {
         "type": "image",
-        "src": "projects/01-ben10-fan-game/2.png"
+        "src": "projects/01-ben10-fan-game/foto2.png"
       },
       {
         "type": "image",
-        "src": "projects/01-ben10-fan-game/3.png"
+        "src": "projects/01-ben10-fan-game/foto3.png"
       },
       {
         "type": "image",
-        "src": "projects/01-ben10-fan-game/4.png"
+        "src": "projects/01-ben10-fan-game/foto4.png"
       },
       {
         "type": "image",
-        "src": "projects/01-ben10-fan-game/5.png"
+        "src": "projects/01-ben10-fan-game/foto5.png"
       }
     ],
     "folder": "01-ben10-fan-game",
